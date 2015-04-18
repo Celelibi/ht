@@ -21,20 +21,15 @@
 
     e. for installing in /usr (instead /usr/local) add '--prefix=/usr'
 
-(2) (Only if you're NOT using a tarball / release:)
-
-        make; make htdoc.h
-        (because of a broken dependency)
-
-(3) compile and link HT:
+(2) compile and link HT:
 
         make
 
-(4) (optionally) install HT:
+(3) (optionally) install HT:
 
         make install
 
-(5) run HT:
+(4) run HT:
 
         ht or ./ht
 
