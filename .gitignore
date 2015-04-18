@@ -12,6 +12,7 @@ configure
 configure.in
 config.guess
 config.sub
+compile
 depcomp
 missing
 stamp-h1
