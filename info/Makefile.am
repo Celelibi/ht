@@ -8,3 +8,7 @@ AM_CXXFLAGS = ${my_CXXFLAGS}
 noinst_LIBRARIES = libinfo.a
 
 libinfo_a_SOURCES = infoview.cc infoview.h
+
+$(libinfo_a_OBJECTS): ../htdoc.h
+../htdoc.h:
+	$(MAKE) -C .. htdoc.h
